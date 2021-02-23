@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.img {
+  width: 100%;
+}
+.col-12 {
+  width: 100%;
+}
+.homepage {
+
+  margin: 0 auto;
+  height: 348px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+      0deg,
+      rgba(50, 73, 94, 0.7),
+      rgba(50, 73, 94, 0.7)
+    ),
+    url(../img/back.png);
+  background-size: cover;
+}
+.menubar {
+  position: relative;
+display: flex;
+  height: 65px;
+  padding-left: 115px;
+  padding-right: 127px;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 206px;
+
+  border-radius: 0px;
+
+  p {
+    height: 30.085712432861328px;
+    width: 116px;
+    left: 90px;
+    top: 7.02001953125px;
+    
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+    color: #f9f9f9;
+  }
+}
+
+.icon {
+  height: 45px;
+  width: 70px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  left: 0%;
+  right: 94.02%;
+  top: 0%;
+  bottom: 0%;
+}
+.menu {
+  ul {
+    li {
+      display: inline-block;
+
+      a {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+
+        padding-left: 40px;
+        display: flex;
+        align-items: center;
+        color: #f9f9f9;
+      }
+    }
+  }
+}
+.content {
+  position: absolute;
+  width: 1170px;
+  height: 52px;
+  left: 115px;
+  top: 165px;
+  h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #f9f9f9;
+  }
+}
+.kontakt{
+  margin:0 auto;
+  .kontakttext{
+padding-top: 70px;
+padding-left: 115px;
+padding-bottom: 50px;
+
+    h1{
+      font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 44px;
+line-height: 52px;
+
+text-transform: uppercase;
+
+
+
+color: #32495E;
+    }
+  }
+}
+.map{
+  padding-left: 115px;
+  padding-right: 115px;
+ .iframe{
+   width: 100%;
+ }
+}
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  
+   .flex-items{
+    width: 210px;
+h3{
+  font-family:"Roboto", sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+color: #32495E;
+p{
+font-family:"Roboto", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+/* 1 */
+
+color: #32495E;
+}
+}
+   }
+}
+.sponsor{
+  margin:0 auto;
+  .kontentsponsor{
+    padding-top: 70px;
+padding-left: 115px;
+.textsponsor{
+  h1{
+    font-family:"Roboto", sans-serif;
+    font-style: normal;
+font-weight: 800;
+font-size: 44px;
+line-height: 52px;
+/* identical to box height, or 118% */
+
+text-transform: uppercase;
+
+/* 1 */
+
+color: #32495E;
+  }
+}
+.imagesponsor{
+  img{
+ 
+  padding-right: 70px;
+  padding-bottom: 70px;
+  }
+}
+  }
+}
+.end{
+  flex-wrap: wrap;
+  background: #333333;
+  display: flex;
+  align-items: flex-start;
+  .footerlogo{
+
+    display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+    padding-top: 40px;
+    padding-left: 115px;
+    padding-right: 140px;
+    
+
+    p{
+   
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 30px;
+      margin-left: 20px;
+      color: #f9f9f9;
+    }
+  }
+}
+.flexitemsfooter{
+ 
+  padding-right: 70px;
+  h3{
+font-family:"Roboto", sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+/* 3 */
+
+color: #F9F9F9;
+  }
+  p{
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+
+
+
+color: #F9F9F9;
+  }
+
+}
+.textfooterend{
+ width: 100%;
+  padding-left: 115px;
+  padding-bottom: 40px;
+  
+}
